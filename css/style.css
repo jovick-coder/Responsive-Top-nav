@@ -3,7 +3,6 @@ body{
     padding: 0;
 }
 nav{
-    /* position: absolute; */
     background-color: blue;
     color:#ffffff;
     width: 100%;
@@ -20,14 +19,9 @@ nav{
 
     .menu-icon{
         float: right;
-        /* display: right; */
         margin: 5px 5px;
         padding:15px 5px ;
-        /* float: left; */
         display: block;
-        /* outline: solid red 2px; */
-        
-        /* position: absolute; */
     }
     .bar{
         background-color: #fff;
@@ -44,7 +38,6 @@ nav{
         height: 5px;
         width: 30px;
         position: absolute;
-        /* transition: all .2s ease; */
         top: -7px;
     }
     .bar::before{
@@ -54,7 +47,6 @@ nav{
         height: 5px;
         width: 30px;
         position: absolute;
-        /* transition: all .2s ease; */
         top: 7px;
     }
     .links .contaner{
@@ -63,7 +55,6 @@ nav{
         height:0px;
         overflow: hidden;
         background-color: blue;
-        /* transition: height ease-in 4s; */
     
     }
     .links .contaner .content ul {
@@ -91,7 +82,6 @@ nav{
     }
     #menu:checked ~ .links .contaner{
         height: 100%;
-        /* transition: height ease-in 5s; */
     } 
     #menu:checked ~ .menu-icon .bar::before{
         top: 0;
@@ -104,7 +94,6 @@ nav{
         background-color: red;
     }
     #menu:checked ~ .menu-icon .bar{
-        /* visibility: hidden; */
         background-color: unset ;
     }
 
